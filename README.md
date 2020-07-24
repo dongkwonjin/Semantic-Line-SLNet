@@ -35,10 +35,10 @@ Download repository:
 
 1. Edit `config.py`. We provide specific dercription of configuration in 'config.txt' file.
 
-Download our [network parameters](https://drive.google.com/drive/folders/1FVpq9VsomdGQU2LF1ryVNSI8q7Y-yVca?usp=sharing) if you want to obtaion the performance similar with the paper.
+2. Download our [network parameters](https://drive.google.com/drive/folders/1FVpq9VsomdGQU2LF1ryVNSI8q7Y-yVca?usp=sharing) if you want to obtain the performance of the paper.
 
 
-2. Run with 
+3. Run with 
 ```
 cd Semantic-Line-SLNet-master
 python main.py
