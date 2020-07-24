@@ -32,7 +32,7 @@ Download repository:
 ```
 ### Instruction
 
-Our model checpoints are available at [here] https://drive.google.com/drive/folders/1QJDfjSo8blL4KgG8bid5N34GicHUhHKF?usp=sharing
+Our model checpoints are available at [here](https://drive.google.com/drive/folders/1QJDfjSo8blL4KgG8bid5N34GicHUhHKF?usp=sharing)
 
 
 
