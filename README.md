@@ -32,8 +32,7 @@ Download repository:
 ```
 ### Instruction
 
-Our model checpoints are available at [here](https://drive.google.com/drive/folders/1FVpq9VsomdGQU2LF1ryVNSI8q7Y-yVca?usp=sharing)
-
+Download our network parameters(https://drive.google.com/drive/folders/1FVpq9VsomdGQU2LF1ryVNSI8q7Y-yVca?usp=sharing)
 
 
 ### Reference
