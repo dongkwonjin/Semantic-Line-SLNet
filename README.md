@@ -12,7 +12,7 @@
 Pytorch reimplementation for the paper **"Semantic Line Detection and Its Applications"**.
 
 ### Requirements
-- PyTorch 1.3.1 (Other versions can cause different results)
+- PyTorch 1.3.1
 - CUDA 10.0
 - CuDNN 7.6.5
 - python 3.6
