@@ -35,7 +35,7 @@ Download repository:
 
 1. Edit `config.py`. We provide specific description of configuration in 'config.txt' file.
 
-2. Download our [network parameters](https://drive.google.com/drive/folders/1FVpq9VsomdGQU2LF1ryVNSI8q7Y-yVca?usp=sharing) if you want to obtain the performance of the paper.
+2. Download our [network parameters](https://drive.google.com/file/d/1jrcu3R90U9XeG-jpOWIcoXcHimPsIaV-/view?usp=sharing) if you want to get the performance of the paper.
 
 
 3. Run with 
