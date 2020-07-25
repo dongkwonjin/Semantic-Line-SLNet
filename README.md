@@ -33,7 +33,7 @@ Download repository:
 ### Instruction
 
 
-1. Edit `config.py`. We provide specific dercription of configuration in 'config.txt' file.
+1. Edit `config.py`. We provide specific description of configuration in 'config.txt' file.
 
 2. Download our [network parameters](https://drive.google.com/drive/folders/1FVpq9VsomdGQU2LF1ryVNSI8q7Y-yVca?usp=sharing) if you want to obtain the performance of the paper.
 
