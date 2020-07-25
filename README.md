@@ -32,7 +32,7 @@ Download repository:
 ```
 ### Instruction
 
-1. Download [SEL dataset and preprocessed data](https://drive.google.com/file/d/1jk43D2wHdF84TfoAUbWjZWenVYnpcD4o/view?usp=sharing). You can download the original dataset in [here](http://mcl.korea.ac.kr/research/Submitted/jtlee_slnet/ICCV2017_JTLEE_dataset.7z). We provide the preprocessed data to train and test proposed three networks in ```data``` and ```edge``` folder. We obtain the data in  ```edge``` folder, by employing [HED algorithm](https://github.com/sniklaus/pytorch-hed).
+1. Download [SEL dataset and preprocessed data](https://drive.google.com/file/d/1K_lc284Mie-i3o4jEHF4dhObqOS_ITLc/view?usp=sharing). You can download the original dataset in [here](http://mcl.korea.ac.kr/research/Submitted/jtlee_slnet/ICCV2017_JTLEE_dataset.7z). We provide the preprocessed data to train and test proposed three networks in ```data``` and ```edge``` folder. We obtain the data in  ```edge``` folder, by employing [HED algorithm](https://github.com/sniklaus/pytorch-hed).
 
 2. Edit `config.py`. Please modify ```dataset_dir```. We provide specific description of configuration in 'config.txt' file.
 
