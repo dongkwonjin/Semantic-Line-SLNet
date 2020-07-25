@@ -20,15 +20,15 @@ Pytorch reimplementation for the paper **"Semantic Line Detection and Its Applic
 ### Installation
 Create conda environment:
 ```
-    $ conda create -n SLNet python=3.6 anaconda
-    $ conda activate SLNet
-    $ pip install opencv-python==3.4.2.16
-    $ conda install pytorch==1.3.1 torchvision cudatoolkit=10.0 -c pytorch
+$ conda create -n SLNet python=3.6 anaconda
+$ conda activate SLNet
+$ pip install opencv-python==3.4.2.16
+$ conda install pytorch==1.3.1 torchvision cudatoolkit=10.0 -c pytorch
 ```
 
 Download repository:
 ```
-    $ git clone https://github.com/dongkwonjin/Semantic-Line-SLNet.git
+$ git clone https://github.com/dongkwonjin/Semantic-Line-SLNet.git
 ```
 ### Instruction
 
