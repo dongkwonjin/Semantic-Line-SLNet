@@ -40,8 +40,8 @@ Download repository:
 
 4. Run with 
 ```
-cd Semantic-Line-SLNet-master
-python main.py
+$ cd Semantic-Line-SLNet-master
+$ python main.py
 ```
 
 
