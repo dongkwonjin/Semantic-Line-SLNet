@@ -40,7 +40,7 @@ $ git clone https://github.com/dongkwonjin/Semantic-Line-SLNet.git
 
 4. Run with 
 ```
-$ cd Semantic-Line-SLNet-master
+$ cd Semantic-Line-SLNet-master/code/
 $ python main.py
 ```
 
