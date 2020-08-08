@@ -9,7 +9,7 @@
 \\[[arXiv]](https://arxiv.org/abs/2007.08139)
 -->
 
-Official pytorch reimplementation for the paper **"Semantic Line Detection and Its Applications"**.
+Official pytorch reimplementation for **"Semantic Line Detection and Its Applications"**.
 
 ### Requirements
 - PyTorch 1.3.1
