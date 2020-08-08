@@ -72,7 +72,7 @@ def prepare_training(cfg, dict_DB):
     logfile = cfg.output_dir + 'train/log/logfile.txt'
     mkdir(path=cfg.output_dir + 'train/log/')
 
-    if cfg.resume == True:
+    if cfg.run_mode == 'train' and cfg.resume == True:
         rmfile(path=logfile)
         val_result = {'AUC_A': 0, 'AUC_P': 0,
                       'AUC_R_upper_P_0.80': 0,

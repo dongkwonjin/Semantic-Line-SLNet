@@ -8,7 +8,7 @@ def load_SLNet_for_test(cfg, dict_DB):
         checkpoint = torch.load(cfg.paper_weight_dir + 'checkpoint_SLNet_paper')
     else:
         # select ckpt from output_dir
-        checkpoint = torch.load(cfg.output_dir + '')
+        checkpoint = torch.load(cfg.weight_dir + '')
     model = SLNet(cfg=cfg)
 
     model.load_state_dict(checkpoint['model'], strict=False)
@@ -29,7 +29,7 @@ def load_SLNet_for_train(cfg, dict_DB):
                                                      gamma=cfg.gamma)
 
     if cfg.resume == False:
-        checkpoint = torch.load(cfg.output_dir + 'checkpoint_SLNet_final')
+        checkpoint = torch.load(cfg.weight_dir + 'checkpoint_SLNet_final')
         model.load_state_dict(checkpoint['model'], strict=False)
         optimizer.load_state_dict(checkpoint['optimizer'])
         scheduler = torch.optim.lr_scheduler.MultiStepLR(optimizer=optimizer,
