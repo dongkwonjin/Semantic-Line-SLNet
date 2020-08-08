@@ -49,10 +49,10 @@ $ python main.py
 ### Reference
 ```
 @Inproceedings{
-Lee2017SLNet,
-title={Semantic Line Detection and Its Applications},
-author={Jun-Tae Lee, Han-Ul Kim, Chul Lee, and Chang-Su Kim},
-booktitle={ICCV},
-year={2017}
+  Lee2017SLNet,
+  title={Semantic Line Detection and Its Applications},
+  author={Jun-Tae Lee, Han-Ul Kim, Chul Lee, and Chang-Su Kim},
+  booktitle={ICCV},
+  year={2017}
 }
 ```
