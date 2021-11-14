@@ -32,7 +32,7 @@ $ git clone https://github.com/dongkwonjin/Semantic-Line-SLNet.git
 ```
 ### Instruction
 
-1. Download [SEL dataset and preprocessed data](https://drive.google.com/file/d/1Urfbj7IvfDpMw7b9SAgOF3Da6hTWrPhL/view?usp=sharing) to ```root/```. You can download the original dataset in [here](http://mcl.korea.ac.kr/research/Submitted/jtlee_slnet/ICCV2017_JTLEE_dataset.7z). We provide the preprocessed data to train and test the model in ```data``` and ```edge``` folder. We obtain the data in  ```edge``` folder, by employing [HED algorithm](https://github.com/sniklaus/pytorch-hed).
+1. Download [SEL dataset and preprocessed data](https://drive.google.com/file/d/1Urfbj7IvfDpMw7b9SAgOF3Da6hTWrPhL/view?usp=sharing) to ```root/```. You can download the original dataset in [here](http://mcl.korea.ac.kr/jtlee_iccv2017/). We provide the preprocessed data to train and test the model in ```data``` and ```edge``` folder. We obtain the data in  ```edge``` folder, by employing [HED algorithm](https://github.com/sniklaus/pytorch-hed).
 
 2. Download our [network parameters](https://drive.google.com/file/d/1v2iy8w4FWB7xn_bpwQqR6cVKTftAcQ3o/view?usp=sharing) to ```root/``` if you want to get the performance of the paper.
 
