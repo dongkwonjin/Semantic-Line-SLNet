@@ -10,18 +10,16 @@ class Config(object):
         # dataset dir
         self.dataset = 'SEL'  # ['SEL', 'SEL_Hard']
         if self.dataset == 'SEL':
-            self.dataset_dir = '/media/dkjin/3535ee90-f88e-4f09-b6aa-cfbf15169dde' \
-                               '/Semantic_Line_Detection/Dataset/'
+            self.dataset_dir = '--SEL dataset root/'  # need to modify
             self.img_dir = self.dataset_dir + 'ICCV2017_JTLEE_images/'
         elif self.dataset == 'SEL_Hard':
-            self.dataset_dir = '/media/dkjin/3535ee90-f88e-4f09-b6aa-cfbf15169dde' \
-                               '/Github/Semantic-Line-DRM/Semantic_line_detection/preprocessed/output/SEL_Hard/'
+            self.dataset_dir = '--SEL_Hard dataset root/'  # need to modify
             self.img_dir = self.dataset_dir + 'images/'
 
         # other dir
-        self.pickle_dir = self.dataset_dir + 'data/detector/'
+        self.pickle_dir = self.dataset_dir + 'data/detector/' # -- preprocessed data root ## need to modify
         self.weight_dir = self.output_dir + '/train/weight/'
-        self.paper_weight_dir = self.proj_dir + '/paper_weight/'
+        self.paper_weight_dir = self.proj_dir + '/paper_weight/'  # need to modify
 
         # setting for train & test
         self.run_mode = 'test_paper'  # ['train', 'test', 'test_paper']
